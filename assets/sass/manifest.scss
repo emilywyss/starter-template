@@ -9,8 +9,7 @@
 // Vendors
 @import
 '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap',
-'../bower_components/font-awesome/css/font-awesome',
-'vendors/typed';
+'../bower_components/font-awesome/css/font-awesome';
 
 // Base stuff
 @import
@@ -26,20 +25,5 @@
 'layout/footer';
 
 // Components
-@import
-'components/landing-benefits',
-'components/pricing-block',
-'components/pricing-details',
-'components/pulse-section',
-'components/connected-section',
-'components/claim-search-item',
-'components/tabs',
-'components/flipper',
-'components/images',
-'components/forms',
-'components/modal',
-'components/mission',
-'components/team',
-'components/hero';
 
 // Page-specific styles
