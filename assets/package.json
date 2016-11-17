@@ -1,0 +1,27 @@
+{
+  "name": "Refergle",
+  "version": "1.0.0",
+  "description": "Refergle Brochure Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Emily Wyss",
+  "license": "Mobials Inc.",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-sass": "^2.3.2"
+  },
+  "dependencies": {
+    "gulp-install": "^0.6.0"
+  }
+}

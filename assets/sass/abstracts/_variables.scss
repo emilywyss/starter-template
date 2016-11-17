@@ -1,0 +1,66 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+$white: #ffffff;
+$black: #000000;
+
+$background-gray: lighten($black, 97%); //#f7f7f7;
+$gray-5: lighten($black, 95%); //#f2f2f2;
+$gray-10: lighten($black, 90%); //#e6e6e6;
+$gray-20: lighten($black, 80%); //#cccccc;
+$gray-30: lighten($black, 70%); //#b3b3b3;
+$gray-40: lighten($black, 60%); //#999999;
+$gray-50: lighten($black, 50%); //#808080;
+$gray-60: lighten($black, 40%); //#666666;
+$gray-70: lighten($black, 30%); //#4d4d4d;
+$gray-80: lighten($black, 20%); //#333333;
+$gray-90: lighten($black, 10%); //#1a1a1a;
+
+$brand-primary: #058ECB;
+$brand-success: #0DC46C;
+$brand-info: #02B7C7;
+$brand-warning: #F79733;
+$brand-danger: #F6334F;
+
+$text-color: #000000;
+
+$link-color: #058fd0;
+
+$font-family-sans-serif: "Montserrat", Helvetica, Arial, sans-serif;
+
+$border-radius-base: 3px;
+$border-radius-large: 5px;
+$border-radius-small: 2px;
+
+$btn-primary-border: $brand-primary;
+$btn-success-border: $brand-success;
+$btn-info-border: $brand-info;
+$btn-warning-border: $brand-warning;
+$btn-danger-border: $brand-danger;
+
+$btn-border-radius-base: 0;
+$btn-border-radius-large: 0;
+$btn-border-radius-small: 0;
+
+$navbar-height: 65px;
+$navbar-margin-bottom: 0;
+$navbar-border-radius: 0;
+
+$navbar-default-color: $black;
+$navbar-default-bg: $white;
+$navbar-default-border: $white;
+
+$navbar-default-link-color: $black;
+
+$navbar-default-toggle-hover-bg: transparent;
+$navbar-default-toggle-icon-bar-bg: $white;
+$navbar-default-toggle-border-color: transparent;
+
+$nav-tabs-border-color: transparent;
+
+$nav-tabs-link-hover-border-color: transparent;
+
+$nav-tabs-active-link-hover-bg: $brand-primary;
+$nav-tabs-active-link-hover-color: darken($brand-primary, 20%);
+$nav-tabs-active-link-hover-border-color: $brand-primary;

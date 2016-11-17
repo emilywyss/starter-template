@@ -1,0 +1,15 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 467px;
+  min-height: 100%;
+  font-weight: 300;
+  @media (max-width: $screen-xs-max) {
+	padding-bottom: 505px;
+  }
+}

@@ -1,0 +1,186 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+
+$colours-class:
+                (white, $white),
+                (black, $black),
+                (brand-success, $brand-success),
+                (brand-warning, $brand-warning),
+                (brand-danger, $brand-danger),
+                (brand-primary, $brand-primary),
+                (background-gray, $background-gray),
+                (gray-5, $gray-5),
+                (gray-20, $gray-20),
+                (gray-60, $gray-60),
+                (brand-info, $brand-info);
+
+//loop through all the colours in rr-colours to make all the helper font-color classes
+@each $colour-name, $colour-value in $colours-class {
+  .#{$colour-name} {
+    color: $colour-value !important;
+  }
+}
+
+@each $colour-name, $colour-value in $colours-class {
+  .bg-#{$colour-name} {
+    background-color: $colour-value !important;
+  }
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.margin-tb-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.padding-tb-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.margin-tb-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.padding-tb-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.margin-tb-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.padding-tb-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.padding-tb-75 {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.padding-5 {
+  padding: 5px;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.font-100 {
+  font-weight: 100;
+}
+
+.font-200 {
+  font-weight: 200;
+}
+
+.font-300 {
+  font-weight: 300;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+.font-800 {
+  font-weight: 800;
+}
+
+.font-900 {
+  font-weight: 800;
+}
+
+.xs-no-float {
+  @media (max-width: $screen-xs-max) {
+    float: none !important;
+  }
+}
+
+.xs-pull-left {
+  @media (max-width: $screen-xs-max) {
+    float: left !important;
+  }
+}
+
+.sm-no-float {
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max)  {
+    float: none;
+  }
+}
+
+.xs-text-left {
+  @media (max-width: $screen-xs-max) {
+    text-align: left;
+  }
+}
+
+.sm-text-left {
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max)  {
+    text-align: left;
+  }
+}
+
+.xs-text-center {
+  @media (max-width: $screen-xs-max) {
+    text-align: center;
+  }
+}
+
+.sm-text-center {
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max)  {
+    text-align: center;
+  }
+}
+
+.inline-block {
+  display: inline-block;
+}
